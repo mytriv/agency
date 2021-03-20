@@ -603,7 +603,7 @@ h4 {
 }
 
 .review__wrap {
-    margin-left: 175px;
+    margin-left: 150px;
 }
 
 .review__wrap-wrapper {
@@ -613,7 +613,8 @@ h4 {
     background: url(../img/Rectangle3.png);
     background-clip: border-box;
     background-repeat: no-repeat;
-    background-position-y: 200px;
+    background-position-y: 220px;
+    background-position-x: -25px ;
 }
 
 .review .head {
