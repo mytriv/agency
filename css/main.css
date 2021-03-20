@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -9,6 +11,8 @@ body{
     background-repeat: no-repeat;
     color: #212121;
 }
+
+
 
 .content {
     display: block;
@@ -195,13 +199,12 @@ li:nth-child(6) a img {
     color: #FB5895;
 }
 
-.details button {
+.arrow {
     border-style: none;
     border-radius: 44px;
     padding: 10px;
     margin-left: 7px;
     margin-top: 120px;
-    background: #87E6FF;
 
 }
 
@@ -209,7 +212,8 @@ li:nth-child(6) a img {
     display: block;
     max-width: 955px;
     width: 100%;
-    margin-left: 214px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 75px;
 }
 
@@ -245,6 +249,7 @@ h1 {
     mix-blend-mode: normal;
     opacity: 0.8;
 }
+
 .awesome {
     font-size: 12px;
     line-height: 15px;
@@ -252,6 +257,7 @@ h1 {
     
     color: #212121;
 }
+
 h3 {
     font-weight: 600;
     font-size: 24px;
@@ -262,6 +268,7 @@ h3 {
     
     color: #212121;
 }
+
 .feature p {
     font-weight: 300;
     font-size: 12px;
@@ -271,6 +278,7 @@ h3 {
     
     color: #333333;
 }
+
 .learn__more {
     font-weight: bold;
     font-size: 10px;
@@ -288,15 +296,19 @@ h3 {
     margin-top: 24px;
 
 }
+
 .feature {
     display: flex;
     max-height: 372px;
+    margin-top: 78px;
 }
+
 .feature img {
     margin: 76px 53px 74px 54px;
 }
+
 .feature__text {
-    margin-top: 78px;
+    
     display: flex;
     flex-direction: column;
 }
@@ -316,6 +328,7 @@ h3 {
     
     color: #FFFFFF;
 }
+
 .container .feature:nth-child(3) .awesome p::before {
     content: '2';
     margin-right: 10px;
@@ -331,6 +344,7 @@ h3 {
     
     color: #FFFFFF;
 }
+
 .container .feature:nth-child(4) .awesome p::before {
     content: '3';
     margin-right: 10px;
@@ -356,7 +370,10 @@ h3 {
     margin-left: 256px;
     max-width: 953px;
     max-height: 771px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .get_bg_b {
     background: url(../img/ready_small_bg.svg);
     background-repeat: no-repeat;
@@ -366,6 +383,7 @@ h3 {
     height: 771px;
 
 }
+
 .get_bg_s {
     background: url(../img/ready_big_bg.svg);
     background-repeat: no-repeat;
@@ -373,6 +391,7 @@ h3 {
     height: 771px;
 
 }
+
 .get_content {
     display: block;
     align-items: center;
@@ -380,6 +399,7 @@ h3 {
     padding-left: 92px;
     padding-top: 237px;
 }
+
 h4 {
     margin: 0;
     width: 728px;
@@ -394,6 +414,7 @@ h4 {
     
     color: #FFFFFF;
 }
+
 .get_content p {
     margin-left: 143px;
     margin-top: 19px;
@@ -407,6 +428,7 @@ h4 {
     
     color: #FFFFFF;
 }
+
 .choose {
     margin: 0;
     margin-top: 66px;
@@ -420,6 +442,7 @@ h4 {
     
     color: #FFFFFF;
 }
+
 #choose1 {
     padding: 14px 58px;
     border-radius: 40px;
@@ -434,6 +457,7 @@ h4 {
     
     color: #FFFFFF;
 }
+
 .choose::before {
     content: 'Choose you option';
     margin: 0;
@@ -447,6 +471,7 @@ h4 {
     
     color: #FFFFFF;
 }
+
 #choose2 {
     border-style: none;
     border-radius: 40px;
@@ -465,3 +490,208 @@ h4 {
     
     color: #FFFFFF;
 }
+
+.work .head {
+
+    margin-left: 327px;
+    margin-top: 88px;
+    line-height: 30px;
+    max-width: 790px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head__title {
+    margin-left: 100px;
+}
+
+.work .nav {
+    margin: 0;
+    margin-top: 29px;
+    margin-left: 119px;
+    
+    
+    align-items: center;
+    color: #000;
+}
+
+#illustration {
+    border-radius: 44px;
+    border-style: none;
+    border: 1px;
+    padding: 12px 44px;
+    background: #FB5895;
+    color:#FFFFFF;
+}
+
+.work-content {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 152px;
+
+}
+
+.work-content__wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.work-content > * {
+    flex-shrink: 0;
+}
+
+.descr {
+    margin-top: 237px;
+    max-width: 473px;
+    max-height: 280px;
+
+
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 26px;
+
+    color: #333333;
+}
+
+.descr h4 {
+    width: 100%;
+    color: #000;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: lowercase;
+    padding: 0;
+
+    letter-spacing: -1px;
+}
+.descr p {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 40px;
+    /* or 250% */
+    
+    letter-spacing: -1px;
+    
+    color: #333333;
+}
+
+.descr .arrow {
+    margin: 0;
+    margin-top: 30px;
+
+    
+}
+
+.blue {
+    background: #87E6FF;
+}
+
+.red {
+    background:#FB5895;
+}
+
+.work-img {
+    max-height: 370px; 
+}
+
+.review {
+
+    margin-top: 181px;
+    height: 813px;
+
+}
+
+.review__wrap {
+    margin-left: 175px;
+}
+
+.review__wrap-wrapper {
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    background: url(../img/Rectangle3.png);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position-y: 200px;
+}
+
+.review .head {
+    width: 896px;
+    margin-top: 272px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.review .head p {
+    width: 630px;
+    margin-left: 50px;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+    
+    text-align: center;
+    letter-spacing: -1px;
+    
+    color: #333333;
+}
+
+.review__wrapper {
+    display: flex;
+    background: url(../img/quotes.svg);
+    background-repeat: no-repeat;
+    background-position-x: 950px;
+    background-position-y: 10px;
+}
+
+.comment {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 204px;
+    margin-left: 205px;
+    max-width: 462px;
+    max-height: 234px;
+
+}
+.comment__user {
+    flex-shrink: 0;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 4px 30px 10px rgba(251, 110, 164, 0.269722);
+}
+
+.comment p {
+    width: 462px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    /* or 225% */
+    
+    letter-spacing: -1px;
+    
+    color: #333333;
+}
+
+h5 {
+    margin-top: 41px;
+    margin-left: 13px;
+
+    flex-shrink: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #212121;
+}
+
