@@ -564,6 +564,7 @@ h4 {
     letter-spacing: -1px;
 }
 .descr p {
+    width: 410px;
     margin-top: 20px;
     font-style: normal;
     font-weight: 300;
@@ -576,11 +577,9 @@ h4 {
     color: #333333;
 }
 
+
 .descr .arrow {
     margin: 0;
-    margin-top: 30px;
-
-    
 }
 
 .blue {
