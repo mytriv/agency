@@ -59,16 +59,25 @@ li:nth-child(5) a {
 li:nth-child(6) a {
     background: #87E6FF;
     padding: 12px;
-    border-radius: 40px;
+    border-radius: 50%;
 }
 
-li:nth-child(6) a img {
-    position: relative;
-    top: 5px
-}
 
 .menu__box {
     margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.menu__burger {
+    width: 24px;
+    height: 24px;
+    box-sizing: content-box;
+    padding: 0px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .agency {
@@ -182,7 +191,7 @@ li:nth-child(6) a img {
 
 .phone button {
     border-style: none;
-    border-radius: 40px;
+    border-radius: 24px;
     padding: 14px 55px;
     background: #87E6FF;
 
@@ -205,7 +214,7 @@ li:nth-child(6) a img {
 
 .arrow {
     border-style: none;
-    border-radius: 44px;
+    border-radius: 50%;
     padding: 10px;
     margin-left: 7px;
     margin-top: 120px;
@@ -266,7 +275,8 @@ h3 {
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
-    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 24px;
     
     letter-spacing: -1px;
     
@@ -320,7 +330,7 @@ h3 {
 .awesome p:nth-child(1)::before {
     content: '1';
     margin-right: 10px;
-    border-radius: 80px;
+    border-radius: 50%;
     padding: 4px 8px;
     background: #87E6FF;
 
@@ -336,7 +346,7 @@ h3 {
 .container .feature:nth-child(3) .awesome p::before {
     content: '2';
     margin-right: 10px;
-    border-radius: 80px;
+    border-radius: 50%;
     padding: 4px 8px;
     background: #87E6FF;
 
@@ -352,7 +362,7 @@ h3 {
 .container .feature:nth-child(4) .awesome p::before {
     content: '3';
     margin-right: 10px;
-    border-radius: 80px;
+    border-radius: 50%;
     padding: 4px 8px;
     background: #87E6FF;
 
@@ -434,6 +444,8 @@ h4 {
 }
 
 .choose {
+    display: flex;
+    align-items: center;
     margin: 0;
     margin-top: 66px;
     margin-left: 67px;
@@ -535,6 +547,10 @@ h4 {
 
 }
 
+.work-content .descr {
+    margin-top:  100px;
+}
+
 .work-content__wrapper {
     width: 100%;
     overflow: hidden;
@@ -567,6 +583,20 @@ h4 {
 
     letter-spacing: -1px;
 }
+
+.descr h3 {
+    max-width: 350px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    
+    color: #212121;
+    
+}
 .descr p {
     width: 410px;
     margin-top: 20px;
@@ -583,7 +613,8 @@ h4 {
 
 
 .descr .arrow {
-    margin: 0;
+    margin-top: 24px;
+    margin-left: 0;
 }
 
 .blue {
@@ -894,25 +925,58 @@ footer p {
 
 .follow .social-foot {
     display: flex;
-    position: absolute;
     flex-direction: row;
-    left: 770px;
 }
 
-.social-foot svg {
-    margin-left: 74px;
+.follow .social-foot a {
+    margin-right: 74px;
+}
+
+.social-foot a:not(:first-child) svg path {
+    fill: #fff;
 }
 
 .logo-foot {
-    margin-top: 80px;
-    
+    margin-top: 24px;   
 }
 
-.foot-bg-b {
+/* .foot-bg-b {
+    z-index: -1;
     position: absolute;
-    background: url(../img/bg.png);
+    background: url(../img/Component1.svg);
     background-repeat: no-repeat;
-    background-position-y: -200px;
+    background-position-y: 100px;
     width: 100%;
     height: 370px;
+} */
+/* .foot-bg {
+    z-index: -1;
+
+    position: absolute;
+    background: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    background-position-x: 930px;
+    background-position-y: -250px;
+    width: 100%;
+    height: 400px;
+} */
+.foot-bgs {
+    position: relative;
+}
+.foot-bg-b {
+    z-index: -1;
+    width: 422px;
+    height: 341px;
+    position: absolute;
+    top: 31px;
+}
+.foot-bg {
+    z-index: -1;
+    position: absolute;
+
+    width: 419px;
+    height: 612px;
+   
+    top: -240px;
+    left: 881px;
 }
